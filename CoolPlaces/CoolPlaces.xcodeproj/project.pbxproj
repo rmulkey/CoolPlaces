@@ -15,6 +15,8 @@
 		0D2346571CB5B977007CCD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2346561CB5B977007CCD03 /* Assets.xcassets */; };
 		0D23465A1CB5B977007CCD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2346581CB5B977007CCD03 /* LaunchScreen.storyboard */; };
 		0D2346651CB5B977007CCD03 /* CoolPlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2346641CB5B977007CCD03 /* CoolPlacesTests.m */; };
+		0D23467C1CB62A6D007CCD03 /* PlaceImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23467B1CB62A6D007CCD03 /* PlaceImage.m */; };
+		0D23467F1CB62A8F007CCD03 /* PlaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23467E1CB62A8F007CCD03 /* PlaceTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		0D2346641CB5B977007CCD03 /* CoolPlacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolPlacesTests.m; sourceTree = "<group>"; };
 		0D2346661CB5B977007CCD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D23466F1CB60AE9007CCD03 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0D23467A1CB62A6D007CCD03 /* PlaceImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceImage.h; sourceTree = "<group>"; };
+		0D23467B1CB62A6D007CCD03 /* PlaceImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceImage.m; sourceTree = "<group>"; };
+		0D23467D1CB62A8F007CCD03 /* PlaceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceTableViewCell.h; sourceTree = "<group>"; };
+		0D23467E1CB62A8F007CCD03 /* PlaceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				0D2346701CB60AF1007CCD03 /* Model */,
+				0D23467D1CB62A8F007CCD03 /* PlaceTableViewCell.h */,
+				0D23467E1CB62A8F007CCD03 /* PlaceTableViewCell.m */,
 				0D23464A1CB5B977007CCD03 /* AppDelegate.h */,
 				0D23464B1CB5B977007CCD03 /* AppDelegate.m */,
 				0D23464D1CB5B977007CCD03 /* ViewController.h */,
@@ -120,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				0D23466F1CB60AE9007CCD03 /* Constants.h */,
+				0D23467A1CB62A6D007CCD03 /* PlaceImage.h */,
+				0D23467B1CB62A6D007CCD03 /* PlaceImage.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -228,6 +238,8 @@
 				0D23464F1CB5B977007CCD03 /* ViewController.m in Sources */,
 				0D23464C1CB5B977007CCD03 /* AppDelegate.m in Sources */,
 				0D2346491CB5B977007CCD03 /* main.m in Sources */,
+				0D23467C1CB62A6D007CCD03 /* PlaceImage.m in Sources */,
+				0D23467F1CB62A8F007CCD03 /* PlaceTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +426,7 @@
 				0D23466B1CB5B977007CCD03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D23466C1CB5B977007CCD03 /* Build configuration list for PBXNativeTarget "CoolPlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				0D23466E1CB5B977007CCD03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
