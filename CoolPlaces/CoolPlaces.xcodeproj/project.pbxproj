@@ -17,6 +17,7 @@
 		0D2346651CB5B977007CCD03 /* CoolPlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2346641CB5B977007CCD03 /* CoolPlacesTests.m */; };
 		0D23467C1CB62A6D007CCD03 /* PlaceImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23467B1CB62A6D007CCD03 /* PlaceImage.m */; };
 		0D23467F1CB62A8F007CCD03 /* PlaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23467E1CB62A8F007CCD03 /* PlaceTableViewCell.m */; };
+		0D2346811CB6B102007CCD03 /* PlaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D2346801CB6B102007CCD03 /* PlaceTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0D23467B1CB62A6D007CCD03 /* PlaceImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceImage.m; sourceTree = "<group>"; };
 		0D23467D1CB62A8F007CCD03 /* PlaceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceTableViewCell.h; sourceTree = "<group>"; };
 		0D23467E1CB62A8F007CCD03 /* PlaceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableViewCell.m; sourceTree = "<group>"; };
+		0D2346801CB6B102007CCD03 /* PlaceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				0D2346701CB60AF1007CCD03 /* Model */,
 				0D23467D1CB62A8F007CCD03 /* PlaceTableViewCell.h */,
 				0D23467E1CB62A8F007CCD03 /* PlaceTableViewCell.m */,
+				0D2346801CB6B102007CCD03 /* PlaceTableViewCell.xib */,
 				0D23464A1CB5B977007CCD03 /* AppDelegate.h */,
 				0D23464B1CB5B977007CCD03 /* AppDelegate.m */,
 				0D23464D1CB5B977007CCD03 /* ViewController.h */,
@@ -217,6 +220,7 @@
 				0D23465A1CB5B977007CCD03 /* LaunchScreen.storyboard in Resources */,
 				0D2346571CB5B977007CCD03 /* Assets.xcassets in Resources */,
 				0D2346521CB5B977007CCD03 /* Main.storyboard in Resources */,
+				0D2346811CB6B102007CCD03 /* PlaceTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

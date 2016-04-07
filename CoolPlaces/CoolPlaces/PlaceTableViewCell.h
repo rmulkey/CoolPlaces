@@ -10,4 +10,9 @@
 
 @interface PlaceTableViewCell : UITableViewCell
 
+@property (nonatomic, strong) IBOutlet UIImageView *backgroundImage;
+@property (nonatomic, strong) IBOutlet UILabel *placeLabel;
+@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+
+
 @end
