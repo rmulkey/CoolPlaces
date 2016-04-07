@@ -11,13 +11,13 @@
 		0D23464C1CB5B977007CCD03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23464B1CB5B977007CCD03 /* AppDelegate.m */; };
 		0D23464F1CB5B977007CCD03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23464E1CB5B977007CCD03 /* ViewController.m */; };
 		0D2346521CB5B977007CCD03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2346501CB5B977007CCD03 /* Main.storyboard */; };
-		0D2346551CB5B977007CCD03 /* CoolPlaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D2346531CB5B977007CCD03 /* CoolPlaces.xcdatamodeld */; };
 		0D2346571CB5B977007CCD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2346561CB5B977007CCD03 /* Assets.xcassets */; };
 		0D23465A1CB5B977007CCD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2346581CB5B977007CCD03 /* LaunchScreen.storyboard */; };
 		0D2346651CB5B977007CCD03 /* CoolPlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2346641CB5B977007CCD03 /* CoolPlacesTests.m */; };
 		0D23467C1CB62A6D007CCD03 /* PlaceImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23467B1CB62A6D007CCD03 /* PlaceImage.m */; };
 		0D23467F1CB62A8F007CCD03 /* PlaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D23467E1CB62A8F007CCD03 /* PlaceTableViewCell.m */; };
 		0D2346811CB6B102007CCD03 /* PlaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D2346801CB6B102007CCD03 /* PlaceTableViewCell.xib */; };
+		0D2346851CB6C19D007CCD03 /* CoolPlaces.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 0D2346841CB6C19D007CCD03 /* CoolPlaces.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		0D23464D1CB5B977007CCD03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0D23464E1CB5B977007CCD03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D2346511CB5B977007CCD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D2346541CB5B977007CCD03 /* CoolPlaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoolPlaces.xcdatamodel; sourceTree = "<group>"; };
 		0D2346561CB5B977007CCD03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D2346591CB5B977007CCD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D23465B1CB5B977007CCD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		0D23467D1CB62A8F007CCD03 /* PlaceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceTableViewCell.h; sourceTree = "<group>"; };
 		0D23467E1CB62A8F007CCD03 /* PlaceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableViewCell.m; sourceTree = "<group>"; };
 		0D2346801CB6B102007CCD03 /* PlaceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceTableViewCell.xib; sourceTree = "<group>"; };
+		0D2346841CB6C19D007CCD03 /* CoolPlaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoolPlaces.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +95,7 @@
 				0D2346701CB60AF1007CCD03 /* Model */,
 				0D23467D1CB62A8F007CCD03 /* PlaceTableViewCell.h */,
 				0D23467E1CB62A8F007CCD03 /* PlaceTableViewCell.m */,
+				0D2346841CB6C19D007CCD03 /* CoolPlaces.xcdatamodel */,
 				0D2346801CB6B102007CCD03 /* PlaceTableViewCell.xib */,
 				0D23464A1CB5B977007CCD03 /* AppDelegate.h */,
 				0D23464B1CB5B977007CCD03 /* AppDelegate.m */,
@@ -104,7 +105,6 @@
 				0D2346561CB5B977007CCD03 /* Assets.xcassets */,
 				0D2346581CB5B977007CCD03 /* LaunchScreen.storyboard */,
 				0D23465B1CB5B977007CCD03 /* Info.plist */,
-				0D2346531CB5B977007CCD03 /* CoolPlaces.xcdatamodeld */,
 				0D2346471CB5B977007CCD03 /* Supporting Files */,
 			);
 			path = CoolPlaces;
@@ -238,8 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2346551CB5B977007CCD03 /* CoolPlaces.xcdatamodeld in Sources */,
 				0D23464F1CB5B977007CCD03 /* ViewController.m in Sources */,
+				0D2346851CB6C19D007CCD03 /* CoolPlaces.xcdatamodel in Sources */,
 				0D23464C1CB5B977007CCD03 /* AppDelegate.m in Sources */,
 				0D2346491CB5B977007CCD03 /* main.m in Sources */,
 				0D23467C1CB62A6D007CCD03 /* PlaceImage.m in Sources */,
@@ -442,19 +442,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0D2346531CB5B977007CCD03 /* CoolPlaces.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0D2346541CB5B977007CCD03 /* CoolPlaces.xcdatamodel */,
-			);
-			currentVersion = 0D2346541CB5B977007CCD03 /* CoolPlaces.xcdatamodel */;
-			path = CoolPlaces.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0D23463C1CB5B977007CCD03 /* Project object */;
 }
